@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SkySync</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-<hash>"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link href="/your-path-to-fontawesome/css/brands.css" rel="stylesheet" />
+  </head>
+
+  <body background="../src/assets/imgs/city1.jpg">
+    <img src="../src/assets/imgs/skysync.png" alt="" class="logo">
+    <div class="container">
+    
+      <div class="form">
+        <h3>VEJA O CLIMA</h3>
+        <div class="form-input-container">
+          <input type="text" placeholder="Nome da cidade..." id="city-input" />
+          <button id="search">
+            <span class="material-symbols-outlined"> search </span>
+          </button>
+        </div>
+        <span id="warn"></span>
+      </div>
+    </div>
+    <div id="social-links">
+        <a href="#" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+        <a href="#" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+        <a href="#" target="_blank"><ion-icon name="logo-youtube"></ion-icon></a>
+        <a href="#" target="_blank" ><ion-icon name="logo-linkedin"></ion-icon></a>
+        
+    </div>
+    <span id="copy">Desenvolvido por &copy; Gabriel Santos</span>
+    <div id="weather-data" class="hide">
+      <h2>
+        <i class="fas fa-location-dot"></i>
+        <span id="city"></span>
+        
+      </h2>
+      <p id="currentDate"></p>
+      <div id="details-container"></div>
+
+      <div id="details-container">
+        <p id="temperature">
+          <i class="material-symbols-outlined"> device_thermostat </i>
+          <span></span>
+        </p>
+        <p id="humidity">
+          <i class="material-symbols-outlined"> humidity_high </i>
+          <span></span>
+        </p>
+        <p id="wind">
+          <i class="material-symbols-outlined"> air </i>
+          <span></span>
+        </p>
+        <div id="description-container">
+          <p id="description"></p>
+          <img src="" alt="" id="weather-icon" />
+        </div>
+      </div>
+
+      
+    </div>
+    
+
+    
+
+    <script src="assets/js/bundle.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
