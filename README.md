@@ -19,7 +19,7 @@ SkySync é uma aplicação web que exibe a condição climática de todas as cid
 <br>
 
 <p align="center">
-  <img alt="projeto SykSync" src="../WeatherTime/.github/SkySync.png" width="100%">
+  <img alt="projeto SykSync" src="../SkySync/.github/SkySync.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
