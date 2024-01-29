@@ -37,14 +37,12 @@ SkySync é uma aplicação web que exibe a condição climática de todas as cid
 
 - [Acesse o projeto finalizado, online](https://github.com/GabrielSantos777/SkySync)
 
-
 ## :memo: Recursos
 
 - Temperatura atual.
 - Data e Hora atualizados.
 - Velocidade do vento.
 - Nível de umidade.
-
 
 ## Contribuição
 
