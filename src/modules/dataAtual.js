@@ -16,6 +16,7 @@ function formataData() {
   const Min = zeroAEsquerda(tempo.getMinutes());
 
 
+
   //ESTRUTRA CONDICIONAL PARA PEGAR O DIA DA SEMANA EM NUMERO E CONVERTER PARA O DIA EM TEXTO
   const diaSemana = tempo.getDay();
   let diaD;
@@ -54,43 +55,42 @@ function formataData() {
       mesAtual = "Jan";
       break;
     case 1:
-      diaD = "Fev";
+      mesAtual = "Fev";
       break;
     case 2:
-      diaD = "Mar";
+      mesAtual = "Março";
       break;
     case 3:
-      diaD = "Abr";
+      mesAtual = "Abr";
       break;
     case 4:
-      diaD = "Mai";
+      mesAtual = "Mai";
       break;
     case 5:
-      diaD = "Jun";
+      mesAtual = "Jun";
       break;
     case 6:
-      diaD = "Jul";
+      mesAtual = "Jul";
       break;
     case 7:
-      diaD = "Ago";
+      mesAtual = "Ago";
       break;
     case 8:
-      diaD = "Set";
+      mesAtual = "Set";
       break;
     case 9:
-      diaD = "Out";
+      mesAtual = "Out";
       break;
     case 10:
-      diaD = "Nov";
+      mesAtual = "Nov";
       break;
-    case 1:
-      diaD = "Dez";
+    case 11:
+      mesAtual = "Dez";
       break;
   }
 
   
 
-  currentDate.innerHTML = `${Hora}:${Min} - ${diaD}, ${dia} de ${mesAtual} de ${Ano}`;
 }
 
 // Chama a função para formatar a data e hora quando a página for carregada
